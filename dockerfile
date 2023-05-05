@@ -1,3 +1,3 @@
 FROM openjdk
-WORDKIR target
+WORKDIR target
 ADD target/. .
