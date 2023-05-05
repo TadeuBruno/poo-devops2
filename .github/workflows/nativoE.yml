@@ -31,7 +31,7 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6
       name: Build & push Docker image
       with:
-        image: repo/image
+        image: brunobr23/aula_java_ao_docker
         tags: 1.0, 1.1
         registry: docker.io
         dockerfile: dockerfile
